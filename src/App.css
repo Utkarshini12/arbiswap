@@ -22,7 +22,13 @@ body {
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
   
+}
+
+.glass_card:hover {
+  transform: scale(1.05);
 }
 
 @keyframes gradientBG {
